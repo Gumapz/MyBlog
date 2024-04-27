@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="blog.css">
+    <title>Blog</title>
+    <link rel="icon" type="image/x-icon" href="image/logo1.png">
+</head>
+
+<body>
+    <section class="page">
+
+        <div class="cover">
+            <img src="image/cover.jpg" alt="">
+
+            <div class="back">
+                <a href="index.html"><i class='bx bx-left-arrow-alt'></i></a>
+            </div>
+        </div>
+        <div class="name">
+            <h3>Robert R. Gumapo</h3>
+            <h6>1.5M followers • 0 following</h6>
+        </div>
+        <div class="profile">
+            <img src="image/profile.jpg" alt="">
+        </div>
+
+        <div class="underline">
+            <input disabled>
+        </div>
+
+        <div class="nav">
+            <a  id="button1" onclick="tonggleButton1()">PHOTOS</a>
+            <a  id="button2" onclick="tonggleButton2()">VIDEOS</a>
+        </div>
+
+        <div id="dropdown2" class="tab-video">
+            <div class="separator"></div>
+            <a class="sectionBtn" data-section="travel_video">TRAVEL</a>
+            <div class="separator"></div>
+            <a class="sectionBtn" data-section="food_video">GAME</a>
+            <div class="separator"></div>
+        </div>
+
+        <div id="dropdown1" class="tab-image">
+            <div class="separator"></div>
+            <a class="sectionBtn" data-section="travel_img">TRAVEL</a>
+            <div class="separator"></div>
+            <a class="sectionBtn" data-section="food_img">GAME</a>
+            <div class="separator"></div>
+        </div>
+
+    </section>
+
+    <!-- blog page -->
+    <section class="blog-page active" id="home">
+        <div class="image">
+            <div class="row">
+                <img class="BLOG1" src="image/pic1.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <img class="BLOG2" src="image/game-image1.png" alt="">
+            </div>
+
+            <div class="row">
+                <img class="BLOG3" src="image/pic3.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <img class="BLOG4" src="image/game-image2.png" alt="">
+            </div>
+
+            <div class="row">
+                <img  class="BLOG5" src="image/pic5.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <img class="BLOG6" src="image/pic6.jpg" alt="">
+            </div>
+
+            <div class="row">
+                <img class="BLOG7" src="image/game-image3.png" alt="">
+            </div>
+
+            <div class="row">
+                <img class="BLOG8" src="image/pic8.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================================================================================ -->
+    <footer class="blog-page" id="travel_video">
+        <div class="back">
+            <a href="blog.html"><i class='bx bx-left-arrow-alt'></i></a>
+        </div>
+        <div class="center-text">
+            <h2>TRAVEL BLOG</h2>
+            <br>
+        </div>
+
+        <div class="blo">
+            <div class="vd">
+                <div class="content">
+                    <!-- <video id="myVideo" src="video/game1.mp4" controls></video>
+                    <p>I did not include my first game because my smart phone is not stable base on the internet connection. 
+                        so I decide to play again but I sacrefice my other apps to stable my internet connection. This game is a rank game,
+                        so I do my best to play this game. My experience is first i choose silvana and next in the battle field I play safe and I proceed to the 
+                         mid line because we don't have any mage. I did not attack the enemy if they are five but I attack them one by one, so I was have retreat
+                         if they are 3 or 4 because i will never kill them if they are so many. I enjoy playing Mobile Legends Bang Bang but as you can see base on
+                          my playing skills I am not master well becase I stop playing the ML in 3 years. I play it back because I need to make a blog.
+                    </p> -->
+
+                </div>
+            </div>
+            <br>
+            <div class="vd">
+                <div class="content2">
+                    <!-- <video id="myVideo" src="video/game2.mp4" controls></video>
+                    <p>I did not include my first game because my smart phone is not stable base on the internet connection. 
+                        so I decide to play again but I sacrefice my other apps to stable my internet connection. This game is a rank game,
+                        so I do my best to play this game. My experience is first i choose silvana and next in the battle field I play safe and I proceed to the 
+                         mid line because we don't have any mage. I did not attack the enemy if they are five but I attack them one by one, so I was have retreat
+                         if they are 3 or 4 because i will never kill them if they are so many. I enjoy playing Mobile Legends Bang Bang but as you can see base on
+                          my playing skills I am not master well becase I stop playing the ML in 3 years. I play it back because I need to make a blog.
+                    </p> -->
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </footer>
+
+
+    <footer class="blog-page" id="food_video">
+        <div class="back">
+            <a href="blog.html"><i class='bx bx-left-arrow-alt'></i></a>
+        </div>
+        <div class="center-text">
+            <h2>GAME BLOG</h2>
+            <br>
+        </div>
+
+        <div class="blo">
+            <div class="vd">
+                <div class="content">
+                    <video class="BLOG9" id="myVideo" src="video/game2.mp4" ></video>
+                    <p>I did not include my first game because my smart phone is not stable base on the internet connection. 
+                        so I decide to play again but I sacrefice my other apps to stable my internet connection. This game is a rank game,
+                        so I do my best to play this game. My experience is first i choose silvana and next in the battle field I play safe and I proceed to the 
+                         mid line because we don't have any mage. I did not attack the enemy if they are five but I attack them one by one, so I was have retreat
+                         if they are 3 or 4 because i will never kill them if they are so many. I enjoy playing Mobile Legends Bang Bang but as you can see base on
+                          my playing skills I am not master well becase I stop playing the ML in 3 years. I play it back because I need to make a blog.
+                    </p>
+                    
+                </div>
+            </div>
+
+            <br>
+            <div class="vd">
+                <div class="content2">
+                    <!-- <video class="BLOG10" id="myVideo" src="video/game2.mp4" ></video>
+                    <p>I did not include my first game because my smart phone is not stable base on the internet connection. 
+                        so I decide to play again but I sacrefice my other apps to stable my internet connection. This game is a rank game,
+                        so I do my best to play this game. My experience is first i choose silvana and next in the battle field I play safe and I proceed to the 
+                         mid line because we don't have any mage. I did not attack the enemy if they are five but I attack them one by one, so I was have retreat
+                         if they are 3 or 4 because i will never kill them if they are so many. I enjoy playing Mobile Legends Bang Bang but as you can see base on
+                          my playing skills I am not master well becase I stop playing the ML in 3 years. I play it back because I need to make a blog.
+                    </p>
+                     -->
+                </div>
+                
+            </div>
+            <br>
+            <div class="vd">
+                <div class="content3">
+                    <!-- <video id="myVideo" src="video/game2.mp4" ></video>
+                    <p>I did not include my first game because my smart phone is not stable base on the internet connection. 
+                        so I decide to play again but I sacrefice my other apps to stable my internet connection. This game is a rank game,
+                        so I do my best to play this game. My experience is first i choose silvana and next in the battle field I play safe and I proceed to the 
+                         mid line because we don't have any mage. I did not attack the enemy if they are five but I attack them one by one, so I was have retreat
+                         if they are 3 or 4 because i will never kill them if they are so many. I enjoy playing Mobile Legends Bang Bang but as you can see base on
+                          my playing skills I am not master well becase I stop playing the ML in 3 years. I play it back because I need to make a blog.
+                    </p> -->
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+
+<!-- ============================================================================================ -->
+
+    <footer class="blog-page" id="travel_img">
+        <div class="back">
+            <a href="blog.html"><i class='bx bx-left-arrow-alt'></i></a>
+        </div>
+        <div class="center-text">
+            <h2>TRAVEL IMAGES</h2>
+            <br>
+        </div>
+
+        <div class="Image">
+            <div class="Row">
+                <div class="content">
+                    <img src="image/pic1.jpg" alt="">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <footer class="blog-page" id="food_img">
+        <div class="back">
+            <a href="blog.html"><i class='bx bx-left-arrow-alt'></i></a>
+        </div>
+        <div class="center-text">
+            <h2>GAME IMAGES</h2>
+            <br>
+        </div>
+
+        <div class="Image">
+            <div class="Row">
+                <div class="content">
+                    <img class="BLOG2" src="image/game-image1.png" alt="">
+                    <p>I did not include my first game because my smart phone is not stable base on the internet connection. 
+                        so I decide to play again but I sacrefice my other apps to stable my internet connection. This game is a rank game,
+                        so I do my best to play this game. My experience is first i choose silvana and next in the battle field I play safe and I proceed to the 
+                         mid line because we don't have any mage. I did not attack the enemy if they are five but I attack them one by one, so I was have retreat
+                         if they are 3 or 4 because i will never kill them if they are so many. I enjoy playing Mobile Legends Bang Bang but as you can see base on
+                          my playing skills I am not master well becase I stop playing the ML in 3 years. I play it back because I need to make a blog.
+                    </p>
+                </div>
+                
+            </div>
+            <br>
+            <div class="Row">
+                    <img class="BLOG4" src="image/game-image2.png" alt="">
+                    <img class="BLOG7" src="image/game-image3.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- ================================================================================ -->
+<!-- Modal pop-up container -->
+<div id="myModal1" class="modal1">
+    <div class="modal-content">
+        <span class="close1" onclick="closeModal1()">&times;</span>
+        <form id="updateForm" action="#" method="POST">
+            <br>
+            <div class="pop-up">
+                <img src="image/pic1.jpg" alt="">
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Modal pop-up container -->
+<div id="myModal2" class="modal2">
+    <div class="modal-content">
+        <span class="close2" onclick="closeModal2()">&times;</span>
+        <form id="updateForm" action="#" method="POST">
+            <br>
+            <div class="pop-up">
+                <img src="image/game-image1.png" alt="">
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Modal pop-up container -->
+<div id="myModal3" class="modal3">
+    <div class="modal-content">
+        <span class="close3" onclick="closeModal3()">&times;</span>
+        <form id="updateForm" action="#" method="POST">
+            <br>
+            <div class="pop-up">
+                <img src="image/pic3.jpg" alt="">
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal pop-up container -->
+<div id="myModal4" class="modal4">
+    <div class="modal-content">
+        <span class="close4" onclick="closeModal4()">&times;</span>
+        <form id="updateForm" action="#" method="POST">
+            <br>
+            <div class="pop-up">
+                <img src="image/game-image2.png" alt="">
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Modal pop-up container -->
+<div id="myModal5" class="modal5">
+    <div class="modal-content">
+        <span class="close5" onclick="closeModal5()">&times;</span>
+        <form id="updateForm" action="#" method="POST">
+            <br>
+            <div class="pop-up">
+                <img src="image/pic5.jpg" alt="">
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Modal pop-up container -->
+<div id="myModal6" class="modal6">
+    <div class="modal-content">
+        <span class="close6" onclick="closeModal6()">&times;</span>
+        <form id="updateForm" action="#" method="POST">
+            <br>
+            <div class="pop-up">
+                <img src="image/pic6.jpg" alt="">
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Modal pop-up container -->
+<div id="myModal7" class="modal7">
+    <div class="modal-content">
+        <span class="close7" onclick="closeModal7()">&times;</span>
+        <form id="updateForm" action="#" method="POST">
+            <br>
+            <div class="pop-up">
+                <img src="image/game-image3.png" alt="">
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Modal pop-up container -->
+<div id="myModal8" class="modal8">
+    <div class="modal-content">
+        <span class="close8" onclick="closeModal8()">&times;</span>
+        <form id="updateForm" action="#" method="POST">
+            <br>
+            <div class="pop-up">
+                <img src="image/pic8.jpg" alt="">
+            </div>
+        </form>
+    </div>
+</div>  
+
+<!-- Modal pop-up container -->
+<div id="myModal9" class="modal9">
+    <div class="modal-content">
+        <span class="close9" onclick="closeModal9()">&times;</span>
+        <form id="updateForm" action="#" method="POST">
+            <br>
+            <div class="pop-up">
+                <video id="myVideo" src="video/game1.mp4" controls></video>
+            </div>
+        </form>
+    </div>
+</div>  
+<!-- Modal pop-up container -->
+<div id="myModal10" class="modal10">
+    <div class="modal-content">
+        <span class="close10" onclick="closeModal10()">&times;</span>
+        <form id="updateForm" action="#" method="POST">
+            <br>
+            <div class="pop-up">
+                <video id="myVideo" src="video/game2.mp4" controls></video>
+            </div>
+        </form>
+    </div>
+</div>  
+
+    <!-- ================================================================================ -->
+    <div class="end-text">
+        <p>© Copyright @2024. All Rights Reserved.</p>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
