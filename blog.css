@@ -584,13 +584,14 @@ footer{
 }
 
 
-.vd video {
+.vd iframe {
+    border: none;
     width: 500px;
-    height: auto;
+    height: 250px;
     transition: all .40s;
 }
 
-.content video{
+.content iframe{
     float: left;
     margin-right: 15px;
 }
@@ -598,7 +599,7 @@ footer{
     text-align: justify;
     color: black;
 }
-.content2 video{
+.content2 iframe{
     margin-left: 15px;
     float: right;
 }
@@ -606,7 +607,7 @@ footer{
     text-align: justify;
     color: black;
 }
-.content3 video{
+.content3 iframe{
     float: left;
     margin-right: 15px;
 }
@@ -634,9 +635,7 @@ footer{
     
 }
 
-.content iframe{
-    width: 500px;
-    height: 250px;
+.content img{
     border: none;
     float: left;
     margin-right: 15px;
@@ -646,7 +645,7 @@ footer{
     color: black;
     top: 10%;
 }
-.content2 iframe{
+.content2 img{
     width: 500px;
     height: 250px;
     margin-left: 15px;
@@ -703,6 +702,7 @@ footer{
     .content iframe{
         width: 250px;
         height: 130px;
+}
 }
 
 /* like */
