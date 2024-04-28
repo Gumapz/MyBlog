@@ -634,7 +634,10 @@ footer{
     
 }
 
-.content img{
+.content iframe{
+    width: 500px;
+    height: 250px;
+    border: none;
     float: left;
     margin-right: 15px;
 }
@@ -643,7 +646,9 @@ footer{
     color: black;
     top: 10%;
 }
-.content2 img{
+.content2 iframe{
+    width: 500px;
+    height: 250px;
     margin-left: 15px;
     float: right;
     margin-top: 15px;
@@ -694,8 +699,10 @@ footer{
         width: 200px;
         height: auto;
         transition: all .40s;
-        
     }
+    .content iframe{
+        width: 250px;
+        height: 130px;
 }
 
 /* like */
