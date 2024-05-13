@@ -340,3 +340,47 @@ function closeModal7() {
       var modal10 = document.getElementById("myModal10");
       modal10.style.display = "none";
   }
+
+
+  // Get the modal
+  var modal11 = document.getElementById("myModal11");
+
+  // Get the button that opens the modal
+  var buttons = document.getElementsByClassName("BLOG11");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close11")[0];
+  
+  // When the user clicks on a button, open the modal and populate form fields
+  for (var i = 0; i < buttons.length; i++) {
+      buttons[i].onclick = function () {
+          var row = this.parentNode.parentNode; // Get the parent row of the clicked button
+          modal11.style.display = "block";
+      }
+  }
+  function closeModal11() {
+      var modal11 = document.getElementById("myModal11");
+      modal11.style.display = "none";
+  }
+
+
+  // Get the modal
+  var modal12 = document.getElementById("myModal12");
+
+  // Get the button that opens the modal
+  var buttons = document.getElementsByClassName("BLOG12");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close12")[0];
+  
+  // When the user clicks on a button, open the modal and populate form fields
+  for (var i = 0; i < buttons.length; i++) {
+      buttons[i].onclick = function () {
+          var row = this.parentNode.parentNode; // Get the parent row of the clicked button
+          modal12.style.display = "block";
+      }
+  }
+  function closeModal12() {
+      var modal12 = document.getElementById("myModal12");
+      modal12.style.display = "none";
+  }
